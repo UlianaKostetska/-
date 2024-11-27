@@ -1,0 +1,43 @@
+
+ ** Simulation of multiple examinees ** 
+ 
+Random seed was not fixed 
+ 
+Simulation time: 25.2701 minutes 
+ 
+Number of simulees: 20 
+Item bank size: 5000 items 
+IRT model: Four-Parameter Logistic model 
+ 
+Item selection criterion: KL 
+ Stopping rule: 
+	 Stopping criterion: precision of ability estimate 
+	   Maximum SE value: 0.3 
+ rmax: 1 
+
+Mean test length: 34.25 items 
+Correlation(true thetas,estimated thetas): 0.9631 
+RMSE: 0.3338 
+Bias: -0.0679 
+Proportion of simulees that satisfy the stop criterion: 1 
+ 
+Maximum exposure rate: 1 
+Number of item(s) with maximum exposure rate: 1 
+Minimum exposure rate: 0 
+Number of item(s) with minimum exposure rate: 4854 
+Item overlap rate: 0.3646 
+ 
+Conditional results 
+                        Measure     D1     D2     D3     D4     D5    D6     D7     D8     D9    D10
+                     Mean Theta -1.895 -1.474 -1.053 -0.632 -0.211 0.211  0.632  1.053  1.474  1.895
+                           RMSE  0.122  0.085   0.49  0.626  0.342 0.182  0.337  0.146  0.304  0.286
+                      Mean bias  0.115  -0.08  0.428 -0.339 -0.342 0.163 -0.093 -0.049 -0.239 -0.242
+               Mean test length     37   40.5   33.5     33     31  32.5   32.5     34     33   35.5
+            Mean standard error  0.298  0.298  0.296  0.296  0.299 0.298  0.299  0.299  0.298  0.299
+ Proportion stop rule satisfied      1      1      1      1      1     1      1      1      1      1
+             Number of simulees      2      2      2      2      2     2      2      2      2      2
+
+These results were saved in files: 
+ C:/Users/HP/OneDrive/Документи/catProject/catR.main.csv 
+ C:/Users/HP/OneDrive/Документи/catProject/catR.responses.csv 
+ C:/Users/HP/OneDrive/Документи/catProject/catR.tables.csv 
